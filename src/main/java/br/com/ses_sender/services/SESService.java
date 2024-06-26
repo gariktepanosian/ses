@@ -27,7 +27,7 @@ import software.amazon.awssdk.services.ses.model.SesException;
 
 public class SESService {
     public static void sendMessage(String message) {
-             AwsBasicCredentials awsCreds = AwsBasicCredentials.create("AKIAXRZDHR2PJ76EA645", "RUxdf4hqirJZBraJH6wtBrhYPTdtflkWZ/6ubMan");
+             AwsBasicCredentials awsCreds = AwsBasicCredentials.create("", "");
 
         Region region = Region.EU_CENTRAL_1;
         SesClient client = SesClient.builder()
